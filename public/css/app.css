@@ -288,16 +288,45 @@ body {
 
 nav li a {
   transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  font-size: 18px;
 }
 nav li a:hover {
-  color: #FE5F1E;
+  color: #8ad751;
+}
+
+nav {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.icon .fa-brands {
+  color: #8ad751;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+
+.logo {
+  position: relative;
+  left: 70px;
+}
+
+.bar {
+  position: relative;
+  right: 70px;
 }
 
 nav li:last-child a {
-  background: #FE5F1E;
+  background: #8ad751;
 }
 nav li:last-child a:hover {
-  background: #b23301;
+  background: #6e9a2a;
 }
 
 section.hero {
@@ -309,12 +338,12 @@ section.hero {
 }
 
 .add-to-cart {
-  border: 2px solid #FE5F1E;
-  color: #FE5F1E;
+  border: 2px solid #8ad751;
+  color: #8ad751;
   transition: all 0.3s ease-in-out;
 }
 .add-to-cart:hover {
-  background: #FE5F1E;
+  background: #8ad751;
   border-color: #fff;
   color: #fff;
 }
@@ -323,18 +352,18 @@ section.hero {
 }
 
 .btn-primary {
-  background: #FE5F1E;
+  background: #8ad751;
   transition: all 0.3s ease-in-out;
 }
 .btn-primary:hover {
-  background: #b23301;
+  background: #6e9a2a;
 }
 
 section.cart {
   background: #f8f8f8;
 }
 section.cart .amount {
-  color: #FE5F1E;
+  color: #8ad751;
 }
 
 section.login {
@@ -342,10 +371,10 @@ section.login {
   min-height: calc(100vh - 86px);
 }
 section.login a {
-  color: #FE5F1E;
+  color: #8ad751;
 }
 section.login a:hover {
-  color: #b23301;
+  color: #6e9a2a;
 }
 
 .noty_theme__mint {
@@ -354,7 +383,7 @@ section.login a:hover {
 }
 
 a.link {
-  color: #FE5F1E;
+  color: #8ad751;
 }
 
 section.status {
@@ -408,7 +437,7 @@ section.status {
 }
 
 .status-box ul li:nth-child(3) span:before {
-  content: "\f818";
+  content: "\f5d1";
 }
 
 .status-box ul li:nth-child(4) span:before {
@@ -451,15 +480,40 @@ section.status {
 }
 
 .status-box ul li.current span {
-  color: #FE5F1E;
+  color: #8ad751;
 }
 
 .status-box ul li.current span:after {
-  background: #FE5F1E;
+  background: #8ad751;
 }
 
 .status-box ul li small {
   float: right;
   font-size: 14px;
   margin-top: 8px;
+}
+
+.StripeElement {
+  box-sizing: border-box;
+  width: 50%;
+  margin-left: 472px;
+  height: 40px;
+  padding: 10px 12px;
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #fa755a;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
 }

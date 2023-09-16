@@ -10,9 +10,21 @@ const admin = require('../app/http/middlewares/admin')
 const statusController = require('../app/http/controllers/admin/statusController')
 
 
-function initRoutes(app){
 
-    app.get('/', homeController().index)
+function initRoutes(app){
+    app.get('/',(req,res) =>{
+        res.render('customers/index')
+    })
+
+    app.get('/product', homeController().index)
+
+    app.get('/about',(req,res) =>{
+        res.render('customers/about')
+    })
+
+    app.get('/contact',(req,res) =>{
+        res.render('customers/contact')
+    })
 
     app.get('/cart', cartController().index)
 
