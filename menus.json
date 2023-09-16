@@ -2,64 +2,64 @@
   "_id": {
     "$oid": "5eee651f739f8c674fd736ee"
   },
-  "name": "Crispy Veg",
-  "image": "brger2.jpg",
-  "price": "250",
+  "name": "apple",
+  "image": "apple1.png",
+  "price": "120",
   "size": "small"
 },{
   "_id": {
     "$oid": "5eee6671a27a66807cf2bea3"
   },
-  "name": "crispy Chicken",
-  "image": "banana.jpg",
-  "price": "300",
+  "name": "Carrot",
+  "image": "Carrot.jpg",
+  "price": "35",
   "size": "medium"
 },{
   "_id": {
     "$oid": "5eee6692a27a66807cf2bea4"
   },
-  "name": "veg Whooper",
-  "image": "brger4.png",
-  "price": "200",
+  "name": "Capsicum",
+  "image": "capsicum.png",
+  "price": "65",
   "size": "small"
 },{
   "_id": {
     "$oid": "5eee66a5a27a66807cf2bea5"
   },
-  "name": "Chicken Whooper",
-  "image": "brger6.png",
-  "price": "500",
-  "size": "large"
+  "name": "Mango",
+  "image": "mango1.png",
+  "price": "110",
+  "size": "medium"
 },{
   "_id": {
     "$oid": "5eee66c4a27a66807cf2bea6"
   },
-  "name": "Mutton Whoooper",
-  "image": "brger2.jpg",
-  "price": "350",
+  "name": "Cauliflower",
+  "image": "cauliflower.jpg",
+  "price": "25",
   "size": "medium"
 },{
   "_id": {
     "$oid": "5eee66cfa27a66807cf2bea7"
   },
-  "name": "Veg Surprise",
-  "image": "brger3.jpg",
-  "price": "200",
+  "name": "Orange",
+  "image": "orange.jpg",
+  "price": "100",
   "size": "small"
 },{
   "_id": {
     "$oid": "5eee66eea27a66807cf2bea8"
   },
-  "name": "Paneer King",
-  "image": "brger4.png",
-  "price": "600",
+  "name": "Lichi",
+  "image": "lichi.jpg",
+  "price": "80",
   "size": "large"
 },{
   "_id": {
     "$oid": "5eee6717a27a66807cf2bea9"
   },
-  "name": "Crispy Grill Burger",
-  "image": "brger6.png",
-  "price": "500",
+  "name": "Banana",
+  "image": "banana.jpg",
+  "price": "50",
   "size": "medium"
 }]
